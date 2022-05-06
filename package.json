@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest --watch"
   },
   "dependencies": {
     "next": "12.1.6",
@@ -15,8 +16,14 @@
     "styled-components": "5.3.5"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "5.16.4",
+    "@testing-library/react": "13.2.0",
+    "babel-jest": "28.0.3",
     "babel-plugin-styled-components": "2.0.7",
     "eslint": "8.14.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "28.0.3",
+    "react-test-renderer": "18.1.0"
   }
 }
