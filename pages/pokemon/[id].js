@@ -7,7 +7,6 @@ const Pokemon = ({data}) => {
 
 	if (isFallback)
 		return <p>Cargando</p>
-	
 
 	return (
 		<div>
@@ -16,7 +15,6 @@ const Pokemon = ({data}) => {
 			<Link href="/">Volver al inicio</Link>
 		</div>
 	)
-
 }
 
 export default Pokemon
